@@ -45,7 +45,7 @@ const MovieDetail: React.FC = () => {
         <>
           <div className="poster" style={{ backgroundImage: `url(https://image.tmdb.org/t/p/w1920_and_h600_multi_faces${movie.backdrop_path})` }}>
             <div className="background">
-              <Button icon="arrow-left" content="GO BACK" primary className="m-3" onClick={() => navigate(-1)} />
+              <Button icon="star" content="GO BACK" primary className="m-3" onClick={() => navigate(-1)} />
             </div>
 
             <div className="container pt-3">
