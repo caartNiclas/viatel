@@ -1,0 +1,12 @@
+.back-image {
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+}
+
+.overlay {
+  background: linear-gradient(to bottom right, rgba(31.5, 31.5, 31.5, 1), rgba(31.5, 31.5, 31.5, 0.84));
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  color: #fff;
+}

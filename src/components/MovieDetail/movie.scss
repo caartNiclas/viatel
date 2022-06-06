@@ -1,0 +1,27 @@
+.movie-overview {
+  display: flex;
+  justify-content: center;
+  color: #fff;
+  p {
+    font-size: 1.1rem;
+  }
+
+  .tagline {
+    font-size: 1em;
+    font-weight: 400;
+    font-style: italic;
+    opacity: 0.7;
+  }
+}
+
+.poster {
+  position: relative;
+  .background {
+    background: linear-gradient(to bottom right, rgba(52.5, 73.5, 73.5, 1), rgba(52.5, 73.5, 73.5, 0.84));
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+  }
+}
